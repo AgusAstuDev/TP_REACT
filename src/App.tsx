@@ -1,19 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import MiPrimerComponente from "./components/MiPrimerComponente";
+import CounterComponent from "./components/CounterComponent";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-  <div>
-    <p>Sincronización de cambios
-    </p>
-  </div>
+      <div>
+        <MiPrimerComponente text="Mi primer componente" color="red" />
+        <CounterComponent />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
