@@ -1,6 +1,7 @@
 import "./App.css";
 import MiPrimerComponente from "./components/MiPrimerComponente";
 import CounterComponent from "./components/CounterComponent";
+import ComponentUseEffect from "./components/ComponentUseEffect";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div>
         <MiPrimerComponente text="Mi primer componente" color="red" />
         <CounterComponent />
+        <ComponentUseEffect />
       </div>
     </>
   );
